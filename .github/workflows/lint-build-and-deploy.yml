@@ -8,6 +8,8 @@ on:
     branches:
       - main
 
+permissions: write-all
+
 jobs:
   Lint-Deploy:
     runs-on: ubuntu-latest
@@ -47,5 +49,5 @@ jobs:
           publish_dir: ./frontend/dist
           publish_branch: gh-pages
           user_name: 'OSS Check My Repo'
-          user_email: 'oss-sauce-bot@users.noreply.github.com'
+          user_email: 'NDViet-CI@users.noreply.github.com'
           commit_message: ${{ github.event.head_commit.message }}

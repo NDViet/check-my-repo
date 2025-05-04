@@ -8,6 +8,8 @@ on:
     branches:
       - main
 
+permissions: write-all
+
 jobs:
   Lint-Deploy:
     runs-on: ubuntu-latest

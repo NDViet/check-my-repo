@@ -10,7 +10,7 @@
   },
   "dependencies": {
     "core-js": "3.22.4",
-    "npm-check-updates": "12.5.11",
+    "npm-check-updates": "19.3.1",
     "register-service-worker": "^1.7.2",
     "vue": "2.6.14",
     "vue-router": "3.5.1",
